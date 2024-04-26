@@ -1,421 +1,232 @@
 
-body {
-  margin: 0px;
-  overflow-x: hidden;
-  width: 99vw;
-  padding: 0px;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
 
 .header {
   position: relative;
-  background: url(https://www.au.edu.pk/pages/About/About_Images/visitau.jpg);
-  height: 400px;
-  color: #fff;
-  text-align: center;
-  padding-top: 50 px;
-}
-
-nav {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #153a9761;
-}
-
-ul {
-  list-style: none;
-  padding: 0px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-li {
-  margin: 15px;
-}
-
-.header a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.text-bar1 {
-  background-color: #153a97;
-  color: #ffffff;
-  padding: 10px;
-  text-align: center;
-}
-
-.heading {
-  padding: 55px 0;
+  background: url('pic1.jpg');
+  height: 800px;
   color: #000000;
-  text-align: center;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 2em;
-}
-
-.para {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.4em;
-  color: #000;
-}
-
-.text-bar2 {
-  background-color: white;
-  color: #ffffff;
-  padding: 10px;
-  text-align: center;
+  text-align: left;
+  padding-top: 50 px;
+  text-rendering: auto;
+  padding-left: 5%;
 
 }
 
-button {
-
+.nav-bar {
+  padding: 10px ;
+  display: flex;
+  justify-content: space-between; 
   align-items: center;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #001554;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  padding: 10px 0;
-}
-
-.card {
-  border: 1px solid #ff0062;
-  border-radius: 8px;
-  margin: 20px;
-  width: 300px;
-
-}
-
-/* Card header styling */
-.card-header {
-  background-color: #ff0062;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Card body styling */
-.card-body {
-  padding: 15px;
-}
-
-/* Card image styling */
-.card-image {
+  position: relative; 
+  top: 0; 
   width: 100%;
+  z-index: 100;
 }
 
-/* Card footer styling */
-.card-footer {
-  background-color: #ffffff;
-  padding: 10px;
-  text-align: right;
-}
+.webpage-name {
+  font-weight: bold;
+  color: rgb(0, 0, 0); 
+  font-family: ;
+  font-size: 2em}
 
-.main-content {
+
+.nav-links {
   display: flex;
-  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.card {
-  margin: 10px;
-  flex: 1 0 25%;
-}
+.nav-links a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  transition: color 0.2s; }
 
 
 
-.card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 8px #153a9761;
-}
 
-.large-card {
-  width: 60%;
-  /* Adjust the width as needed */
-}
-
-.small-card {
-  width: 30%;
-  /* Adjust the width as needed */
-}
-
-.main-content {
-  width: 100vw;
-}
-
-.news {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.row {
-  width: 100%;
-}
-
-.news .row>.col {
-  width: 50%;
-  margin: 1rem;
-}
-
-.news .row:nth-child(2) {
-  flex-direction: row-reverse;
-}
-
-.flex {
-  display: flex;
-}
-section.campus-news > div.main-content .card {
-  height: 100%;
-  margin: 0px 1px;
-}
-section.campus-news > div.main-content .flex {
-  height: 100%;
-}
-
-.card.text-white {
-  width: 100%;
-}
-
-.card-img-overlay {
-  padding: 4rem;
-}
-
-.Academics {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-}
-.Academics * {
-  margin-top: 2rem;
-}
-.Academics .top h1 {
-  text-align: center;
-  font-weight: 900;
-}
-
-.Academics .top p {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.8em;
-  color: #000;
-}
-
-.crd {
-  margin: 1rem;
-}
-.card-body > * {
-  margin-top: 1rem;
-}
-.campus-news {
-  background-color: #153a9761;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-.bottom {
-  text-align: center;
-}
-.quote {
-  background-image: url('https://www.au.edu.pk/AU_New_Assets/images/Campuses/islamabad.jpg');
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.quote > * {
-  margin: 0px;
-}
-.Stats {
-  text-align: center;
-}
-hr.solid {
-  border-top: 1px solid #000;
-  opacity: 0.75;
-}
-.Stats > * {
-  margin-top: 3rem;
-}
-.Stats h1 {
-  font-weight: 900; 
-}
-.Stats h3 {
-  font-weight: 700;
-}
-.Stats p {
-  font-size: 2rem;
-}
-
-.upcoming-events {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  background-color: #153a9761;
-}
-.upcoming-events * {
-  margin-top: 2rem;
-}
-.upcoming-events .top h1 {
-  text-align: center;
-  font-weight: 900;
-}
-
-.upcoming-events .top p {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.8em;
-  color: #000;
-}
-
-.health-care {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  background-color: #153a9761;
-}
-.health-care * {
-  margin-top: 2rem;
-}
-.health-care .top h1 {
-  text-align: center;
-  font-weight: 900;
-}
-
-.health-care .top p {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.8em;
-  color: #000;
-}
-.quote {
-  padding-left: 15%;
-  padding-right: 15%;
+  .search-bar {
+    padding: 10px;
+    width: 200px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    outline: 2px solid transparent; 
+    transition: outline 0.2s; 
 }
 
 
-.campus-life {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  background-color: #153a9761;
-}
-.campus-life * {
-  margin-top: 2rem;
-}
-.campus-life .top h1 {
-  text-align: center;
-  font-weight: 900;
+.search-bar:focus {
+    outline: 2px solid #3498db; 
 }
 
-.campus-life .top p {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.8em;
-  color: #000;
+.search-bar:hover {
+    outline: 2px solid #888; 
 }
 
-.Athletics {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  background-color: #153a9761;
-}
-.Athletics * {
-  margin-top: 2rem;
-}
-.Athletics .top h1 {
-  text-align: center;
-  font-weight: 900;
-}
+  .button{
+  padding: 10px 20px; 
+    margin: 10px; 
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    width :130px;}
 
-.Athletics .top p {
-  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 1.5;
-  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1.8em;
-  color: #000;
-}
-.Admission > .top > * {
-  text-align: center;
-}
-.Admission > .top > h1 {
-  font-weight: 900;
-}
-.Admission > .top > p {
-  font-size: 1.8em;
-}
-.Admission > .top {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.main img {
-  width: 90vw;
-  margin-left: auto;
-  display: block;
-  margin-right: auto;
-}
-.Admission .flex .col h3 {
-  font-weight: 600;
-}
-.Admission .flex .col {
-  padding: 3.5rem;
-}
-.lastimage {
-  background-image: url('https://www.au.edu.pk/AU_New_Assets/images/footerimages/footerau.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  width: 100%;
-}
-.footer > * {
-  display: flex;
-  flex-direction: column;
-}
-.footer > div > ul {
-  display: flex;
-  flex-direction: column;
-}
+  
+        
+        .card-container {
+            display: flex;
+            gap: 20px; 
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
 
-.footer {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  display: flex;
-  text-align: center;
-}
-.footer a {
-  text-decoration: none;
-  color: #153a9761;
-}
+        .card {
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 10px;
+            padding: 30px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.2s; 
+        }
+
+    
+        .card:hover {
+            transform: scale(1.05); 
+        }
+    
+        .card img {
+            border-radius: 10px; 
+            width: 100%;
+            height: auto;
+        }
+
+    
+        .card h3 {
+            margin: 10px 0 5px 0; 
+            font-size: 18px; 
+        }
+
+ 
+        .card .price {
+            font-size: 14px; 
+            color: gray; 
+        }
+
+       
+        .card button {
+            padding: 10px;
+            background-color: #000000; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s; 
+            width:100px;
+           align-items: center;
+        }
+
+
+        .card button:hover {
+            background-color: #2980b9; 
+     
+        }
+
+        .sec3 {
+          position: relative;
+          background: url('image\ \(1\).png');
+          height: 700px;
+          width: 100%;
+          color: #000000;
+          text-align: left;
+          padding-top: 1000 px;
+          text-rendering: auto;
+          text-align: right;
+          padding-right: 5%;
+        }
+         .Winter{
+          text-align: center;
+         }
+
+         .content {
+          display: flex; 
+          justify-content: space-between; 
+          align-items: center; 
+          padding: 20px; 
+          border: 1px solid rgb(250, 239, 221); 
+       color: rgb(255, 255, 255);
+          background-color: rgb(0, 0, 0);
+          padding-bottom: 30px;
+      }
+
+  
+      .top-section {
+        
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 20px; 
+       background-color: rgb(248, 241, 233);
+    }
+
+   
+ .heading{
+  font-size:xx-large;
+  font-weight: bold; rgb(248, 241, 233);
+ }
+    
+  
+    .bottom-section {
+        display: flex; 
+        justify-content: center; 
+        padding: 20px; 
+        background-color: rgb(248, 241, 233);
+    }
+
+    .button1{
+      padding-left: 70px;
+      padding-top: 50px;
+      border:none;
+      background-color: rgb(248, 241, 233);
+    }
+
+    .footer {
+      background-color: #000000;
+      color: white; 
+      padding: 20px; 
+      display: flex; 
+      align-items: center; 
+  }
+
+  .footer-left {
+      flex-basis: 100px; 
+      font-size: 2em; 
+  }
+
+  .footer-columns {
+      flex-grow: 1; 
+      display: flex; 
+      justify-content: center; 
+      gap: 40px; 
+  }
+
+  .footer-column {
+      display: flex;
+      flex-direction: column; 
+  }
+
+  .footer-column h3 {
+      font-weight: bold; 
+      margin-bottom: 10px; 
+  }
+
+  .footer-column a {
+      color: white; 
+      text-decoration: none; 
+      margin-bottom: 5px; 
+      transition: color 0.2s; 
+  }
+
+  .footer-column a:hover {
+      color: #3498db; 
+  }
